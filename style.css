@@ -1,0 +1,612 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  overflow: x-hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* .container {
+  max-width: 1232px;
+  margin: auto;
+} */
+/* Header section */
+.header-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.brand {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #f40469;
+}
+/* banner section */
+
+.baner {
+  background-image: url(image/Preset.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner-wrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.baner-title {
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 0.4px;
+}
+
+.baner-search-box {
+  width: 815px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 2rem;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  overflow: hidden;
+}
+
+.baner-search-box > span {
+  padding: 0px 20px;
+  border-right: 0.5px solid #000;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.baner-search-box > span > i {
+  color: #f40469;
+}
+
+.baner-search-box > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f40469;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  width: 136px;
+  text-transform: capitalize;
+}
+
+.baner-search-box > input {
+  width: 400px;
+  border: none;
+  height: 100%;
+  padding: 10px;
+  margin-left: -100px;
+  font-size: 18px;
+  outline: none;
+}
+.banner-heading {
+  color: #ffffff;
+  font-weight: 400px;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  width: 1023px;
+  height: 72px;
+  margin-top: 145px;
+}
+.search-input input {
+  width: 815px;
+  height: 56px;
+
+  color: #ffffff;
+
+  border-radius: 30px;
+}
+
+/* App dowload section start */
+.col-md-6.mb-4.mb-md-0.app-download-img img {
+  width: 95%;
+  height: auto;
+}
+.app-download-content {
+  margin-top: 20px;
+}
+.app-download button {
+  margin-top: 10px;
+}
+
+.app-download-img-content > h5 {
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.3;
+}
+.app-download-content > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3;
+  margin-top: 20px;
+}
+.app-download-img-content > button {
+  width: 246px;
+  height: 56px;
+  color: #fff;
+  background-color: #f40469;
+  border-radius: 2rem;
+  border: none;
+}
+/* App dowload section ending */
+
+/* Popular section start */
+.card {
+  border: none !important;
+}
+.card img {
+  object-fit: cover;
+}
+.view-all-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+a.btn.btn-primary.btn-custom {
+  background: transparent;
+  color: #000;
+  border: none;
+}
+/* .popular-section {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-section > div > h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0.3px;
+  margin-right: 6px;
+}
+.popular-section > div > span {
+  width: 80px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.popular-img {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.first-img-div img {
+  width: 400px;
+  height: 661px;
+
+  border-radius: 1rem;
+  background: linear-gradient(#d8d8d8 100%);
+}
+
+.second-img-slide {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.second-img-slide img {
+  width: 400px;
+  height: 240px;
+  background: linear-gradient(#d8d8d8 100%);
+}
+.popular-text-content {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
+.restaurant-name-heading {
+  width: 335px;
+  height: 64px;
+}
+.restaurant-name-heading > h5 {
+  font-family: "Jost", sans-serif;
+  height: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.popular-text-content > div > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.popular-text-content > div > span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.popular-icon > span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+} */
+
+/* Popular section ending */
+
+/* How it is work section start */
+.how-work {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.how-work-text {
+  text-align: center;
+}
+.how-work-img {
+  margin-bottom: 30px;
+}
+.how-work-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.how-work > h3 {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 64px;
+  margin-top: 120px;
+}
+
+/* How it is work section ending */
+.how-work-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.how-work-img {
+  width: 288px;
+  height: 360px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 2rem;
+  text-align: center;
+}
+.how-work-img img {
+  color: #f40469;
+}
+.how-work-img > div img {
+  background-image: url("image/Ornament.png");
+  width: 88px;
+  height: 88px;
+}
+.how-work-img > h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+  color: #f40469;
+}
+.how-work-img > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+/* How it is work section ending */
+
+/* food delivery section start */
+.food-delivery {
+  background-image: url("image/Background.png");
+  background-repeat: no-repeat;
+  margin-top: 160px;
+  border-radius: 2rem;
+  position: relative;
+  padding: 60px;
+  background-size: cover;
+}
+.food-delivery > h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.3px;
+}
+.food-delivery-btn > div > button {
+  width: 248px;
+  height: 56px;
+  margin-top: 30px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #283646;
+  border-radius: 2rem;
+  border: none;
+  text-align: center;
+}
+
+.food-delivery-btn {
+  display: flex;
+  gap: 30px;
+}
+.food-delivery-btn > div > h4 {
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+}
+/* food delivery section ending */
+
+/* Food lover section start */
+.food-lover-text {
+  margin-top: 100px;
+}
+.food-lover-text > h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.food-lover-text > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 20px;
+}
+.food-lover-backroundimg {
+  background-image: url("image/Rectangle.png");
+  margin-top: 55px;
+  max-width: 608px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  text-align: center;
+  position: relative;
+}
+.arrow-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.food-lover-backroundimg img {
+  border-radius: 100%;
+  margin-top: 40px;
+  width: 80px;
+  height: 80px;
+}
+.food-lover-backroundimg > h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  color: #f8f9fa;
+  text-align: center;
+  margin-top: 10px;
+}
+.food-lover-backroundimg > h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #f40469;
+  margin-top: 20px;
+}
+.arrow-icon > div > i {
+  margin-top: 60px;
+}
+
+/* food lover section ending */
+
+/* Footer Section Start */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.footer-logo img {
+  width: 130px;
+}
+
+.footer-nav > nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-nav > nav > ul > li {
+  font-family: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 100px;
+  padding: 60px 0 100px;
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  background-image: url("image/Ornament (2).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.footer::before {
+  content: "";
+  background-image: url("image/Ornament\ \(3\).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.footer-text {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.app-download-img > img {
+  width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .baner-title {
+    font-size: 42px;
+  }
+  .baner-search-box > input {
+    width: 110px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .baner-title {
+    font-size: 36px;
+  }
+  .baner-search-box {
+    width: 100%;
+  }
+  .baner-search-box > input {
+    width: 110px;
+  }
+  .app-download {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-nav {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .app-download-img-content > h5 {
+    font-size: 34px;
+    line-height: unset;
+  }
+
+  .app-download-img > img {
+    width: 100%;
+  }
+
+  .food-delivery {
+    padding: 10px;
+    height: auto;
+  }
+
+  .food-delivery > h3 {
+    font-size: 34px;
+    line-height: unset;
+  }
+
+  .food-delivery-btn > div > h4 {
+    margin-top: 0px;
+  }
+
+  .footer-logo {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-nav > nav > ul {
+    padding-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .baner-search-box > span {
+    font-size: 10px;
+  }
+
+  .baner-search-box > button {
+    font-size: 14px;
+  }
+}
